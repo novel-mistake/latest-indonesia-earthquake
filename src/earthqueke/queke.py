@@ -79,3 +79,8 @@ def tampilkan_data(result):
     print(f"koordinat: LS={result['koordinat']['ls']},BR={result['koordinat']['bt']}")
     print(f"lokasi {result['lokasi']}")
     print(f"Dirasakan {result['Dirasakan']}")
+
+if __name__ == '__main__':
+    result = ekstraksi_data()
+    tampilkan_data(result)
+
